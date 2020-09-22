@@ -1,9 +1,9 @@
 set(CMAKE_CXX_STANDARD 11)
 cmake_minimum_required(VERSION 3.10)
 
-add_library(cpp_project_lib "lib.cpp")
-target_include_directories(cpp_project_lib PUBLIC .)
+add_library(lastdb_lib "strlib.cpp")
+target_include_directories(lastdb_lib PUBLIC .)
 
-add_executable(cpp_project main.cpp)
+add_executable(lastdb main.cpp)
 
-set_target_properties(cpp_project_lib PROPERTIES LINKER_LANGUAGE CXX)
+set_target_properties(lastdb_lib PROPERTIES LINKER_LANGUAGE CXX)

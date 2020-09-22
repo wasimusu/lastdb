@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "test_lib.h"
+#include "test_strlib.h"
 
 int main(int argc, char **argv) {
     std::cout << "Running tests. Brace yourself\n" << std::endl;

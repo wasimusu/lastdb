@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../src/lib.cpp"
+#include "../../src/strlib.cpp"
 #include "gtest/gtest.h"
 
 TEST(test_add, add_two_positive_nums) {

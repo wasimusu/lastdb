@@ -1,5 +1,5 @@
 #include <benchmark/benchmark.h>
-#include "../../src/lib.cpp"
+#include "../../src/strlib.cpp"
 
 
 static void bench_add(benchmark::State &state) {
